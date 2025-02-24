@@ -44,8 +44,7 @@
 # 0 <= nums.length <= 100
 # 0 <= nums[i] <= 50
 # 0 <= val <= 100
-
-# Answers
+#Solutions
 nums = [0,1,2,2,3,0,4,2]
 val = 2
 def removeElement(nums, val):
@@ -56,5 +55,3 @@ def removeElement(nums, val):
             i += 1
     return i
 print(removeElement(nums, val))
-
-
