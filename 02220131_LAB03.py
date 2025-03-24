@@ -56,6 +56,7 @@ class ArrayStack:
 
 
 
+
 stack = ArrayStack()  # Initialize the stack
 stack.push(10)
 stack.push(20)
@@ -63,4 +64,6 @@ stack.push(30)
 stack.peek()
 stack.pop()
 stack.size()
+
+
 stack.display()
